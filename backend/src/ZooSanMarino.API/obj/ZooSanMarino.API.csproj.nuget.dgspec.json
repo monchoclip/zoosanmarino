@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/chelsycardona/proyectos/zoosanmarino/backend/src/ZooSanMarino.API/ZooSanMarino.API.csproj": {}
+  },
+  "projects": {
+    "/Users/chelsycardona/proyectos/zoosanmarino/backend/src/ZooSanMarino.API/ZooSanMarino.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/chelsycardona/proyectos/zoosanmarino/backend/src/ZooSanMarino.API/ZooSanMarino.API.csproj",
+        "projectName": "ZooSanMarino.API",
+        "projectPath": "/Users/chelsycardona/proyectos/zoosanmarino/backend/src/ZooSanMarino.API/ZooSanMarino.API.csproj",
+        "packagesPath": "/Users/chelsycardona/.nuget/packages/",
+        "outputPath": "/Users/chelsycardona/proyectos/zoosanmarino/backend/src/ZooSanMarino.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/chelsycardona/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[8.0.16, 8.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
